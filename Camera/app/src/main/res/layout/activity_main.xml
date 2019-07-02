@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.camera.MainActivity">
+
+<ImageButton
+    android:id="@+id/src"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/stta" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAMA:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_below="@id/src"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/yesi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yesi Wulandari/16030071"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_below="@id/nama"
+        android:layout_alignLeft="@+id/ari"
+        android:layout_alignStart="@+id/ari"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/ari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ega Ari Wiyasa/16030017"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@id/yesi"
+        />
+
+    <TextView
+        android:id="@+id/arman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arifa Arman/16030009"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_below="@id/ari"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/arman">
+        <TextView
+            android:id="@+id/marque_scrolling_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:padding="16dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="TEKAN TOMBOL BACK UNTUK KELUAR..."
+            android:textSize="24sp"
+            android:textColor="#FEFEFE"
+            android:textStyle="italic"
+            android:background="#C22200"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

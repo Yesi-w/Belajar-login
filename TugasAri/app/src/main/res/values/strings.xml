@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TugasAri</string>
+    <string name="username">Masukan Nama</string>
+    <string name="password">Masukan Password</string>
+    <string name="login">Login</string>
+    <string name="not_registered">Buat Akun.?</string>
+    <string name="register">Daftar Disini.!</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Sudah Punya Akun.??</string>
+</resources>
